@@ -1,4 +1,4 @@
-import { Row, Col, Form, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 export const ContactItem = ({ item }) => {
   return (
