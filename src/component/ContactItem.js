@@ -9,7 +9,7 @@ export const ContactItem = ({ item }) => {
           src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg"
         />
       </Col>
-      <Col lg={11}>
+      <Col lg={10} className="List">
         <div>{item.name}</div>
         <div>{item.phoneNum}</div>
       </Col>
